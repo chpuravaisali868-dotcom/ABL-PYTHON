@@ -1,0 +1,13 @@
+Test Cases: Student Marks and Grade Calculator
+
+1. Input: 80, 75, 90, 85, 70
+   Expected: Total 400, Percentage 80.00%, Grade B
+
+2. Input: 95, 95, 95, 95, 95
+   Expected: Total 475, Percentage 95.00%, Grade A
+
+3. Input: 20, 30, 25, 35, 40
+   Expected: Total 150, Percentage 30.00%, Grade Fail
+
+4. Input: 110, 80, 70, 60, 50
+   Expected: Invalid marks message and program stops
