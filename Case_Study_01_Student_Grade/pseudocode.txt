@@ -1,0 +1,28 @@
+START
+    marks = empty list
+    REPEAT 5 times
+        INPUT mark
+        IF mark < 0 OR mark > 100
+            DISPLAY "Invalid marks"
+            STOP
+        END IF
+        ADD mark to marks
+    END REPEAT
+
+    total = SUM(marks)
+    percentage = total / 5
+
+    IF percentage >= 90
+        grade = "A"
+    ELSE IF percentage >= 75
+        grade = "B"
+    ELSE IF percentage >= 60
+        grade = "C"
+    ELSE IF percentage >= 40
+        grade = "D"
+    ELSE
+        grade = "Fail"
+    END IF
+
+    DISPLAY marks, total, percentage, grade
+STOP
