@@ -1,0 +1,24 @@
+Flowchart steps (draw using standard flowchart symbols):
+
+[Oval] START
+   |
+[Rectangle] Initialize empty marks list
+   |
+[Parallelogram] Input mark (repeat for 5 subjects)
+   |
+[Diamond] Is mark between 0 and 100?
+   | No                         | Yes
+[Parallelogram] Error            |
+   |                            [Rectangle] Add mark to list
+[Oval] STOP                      |
+                         (repeat until 5 marks entered)
+                                  |
+                         [Rectangle] Calculate total
+                                  |
+                         [Rectangle] Calculate percentage
+                                  |
+                         [Diamond] Select grade using conditions
+                                  |
+                         [Parallelogram] Display result
+                                  |
+                              [Oval] STOP
