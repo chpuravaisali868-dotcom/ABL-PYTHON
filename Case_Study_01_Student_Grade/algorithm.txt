@@ -1,0 +1,13 @@
+Algorithm: Student Marks and Grade Calculator
+
+1. Start.
+2. Create an empty list called marks.
+3. Repeat five times:
+   a. Input a subject mark.
+   b. If the mark is below 0 or above 100, display an error and stop.
+   c. Add the mark to the list.
+4. Add the marks to calculate the total.
+5. Calculate percentage = total / 5.
+6. Use if-elif-else to determine the grade.
+7. Display marks, total, percentage, and grade.
+8. Stop.
